@@ -45,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch, onMounted } from "vue";
+import { ref, watch } from "vue";
 const curretStep = ref<number>(0);
 const swipperRef = ref<HTMLDivElement | null>(null);
 const passedProgressBarRef = ref<HTMLDivElement | null>(null);
